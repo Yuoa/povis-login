@@ -51,8 +51,8 @@
 .login_box .m_cont .login_cont label{position:absolute;top:0;left:0;font-size:14px;color:#333;padding:11px 0;font-weight:500;}
 .login_box .m_cont .login_cont .input_box{height:40px;padding:0;width:100%;margin-bottom:10px;border:1px solid #e8e5e2;}
 .login_box .m_cont .login_cont .input_box input{display:inline-block;vertical-align:middle;width:100%;padding:10px 20px 12px 15px!important;line-height:1em;font-size:14px;color:#555;height:inherit;border:none;}
-.login_box .m_cont .login_cont .input_box.field1 i.icon_item{position:absolute;top:12px;right:15px;background:url(/i/povis/sprite.default.png) no-repeat -4px -345px;background-size:250px 500px;width:15px;height:16px;}
-.login_box .m_cont .login_cont .input_box.field2 i.icon_item{position:absolute;top:12px;right:15px;background:url(/i/povis/sprite.default.png) no-repeat -27px -344px;background-size:250px 500px;width:13px;height:17px;}
+.login_box .m_cont .login_cont .input_box.field1 i.icon_item{position:absolute;top:12px;right:15px;background:url(/images/default.png) no-repeat -4px -345px;background-size:250px 500px;width:15px;height:16px;}
+.login_box .m_cont .login_cont .input_box.field2 i.icon_item{position:absolute;top:12px;right:15px;background:url(/images/default.png) no-repeat -27px -344px;background-size:250px 500px;width:13px;height:17px;}
 .login_box .m_cont .login_cont .input_box input::-webkit-input-placeholder{color:#555;font-size:14px}
 .login_box .m_cont .login_cont .input_box input:-ms-input-placeholder{color:#555;font-size:14px}
 .login_box .m_cont .login_cont .input_box input::-moz-placeholder{color:#555;font-size:14px}
@@ -65,13 +65,13 @@
 .login_box .m_cont .login_cont .other_unit li.unit1{padding:35px 60px 30px 60px;/* border-bottom:1px solid #ebe9e6 */}
 .login_box .m_cont .login_cont .other_unit li.unit1 .unit_icon1{position:absolute;top:0;left:0;display:block;width:35px;height:35px;background-color:#dbdbdb;-webkit-border-radius:18px;-moz-border-radius:18px;border-radius:18px;text-align:center;padding:6px 0;}
 .login_box .m_cont .login_cont .other_unit li.unit2{padding:30px 60px;}
-.login_box .m_cont .login_cont .other_unit li.unit1 .unit_icon1 i{display:inline-block;background:url(/i/povis/sprite.new.png) no-repeat -380px -380px; background-size: 500px 700px;width:13px;height:16px;}
+.login_box .m_cont .login_cont .other_unit li.unit1 .unit_icon1 i{display:inline-block;background:url(/images/new.png) no-repeat -380px -380px; background-size: 500px 700px;width:13px;height:16px;}
 .login_box .m_cont .login_cont .other_unit li.unit2 .unit_icon1{position:absolute;top:0;left:0;display:block;width:35px;height:35px;background-color:#dbdbdb;-webkit-border-radius:18px;-moz-border-radius:18px;border-radius:18px;text-align:center;padding:6px 0;}
 .login_box .m_cont .login_cont .other_unit li .unit_cont{padding-left:50px;padding-right:25px;}
-.login_box .m_cont .login_cont .other_unit li.unit2 .unit_icon1 i{display:inline-block;background:url(/i/povis/sprite.new.png) no-repeat -400px -380px; background-size: 500px 700px;width:13px;height:16px;}
+.login_box .m_cont .login_cont .other_unit li.unit2 .unit_icon1 i{display:inline-block;background:url(/images/new.png) no-repeat -400px -380px; background-size: 500px 700px;width:13px;height:16px;}
 .login_box .m_cont .login_cont .other_unit li .unit_cont dt{font-size:12px;color:#555;font-weight:500;}
 .login_box .m_cont .login_cont .other_unit li .unit_cont dd{font-size:11px;color:#999;font-weight:500;}
-.login_box .m_cont .login_cont .other_unit li .unit_icon2 i{display:block;position:absolute;top:5px;right:0;background:url(/i/povis/sprite.default.png) no-repeat -177px -375px;background-size:250px 500px;width:14px;height:26px;}
+.login_box .m_cont .login_cont .other_unit li .unit_icon2 i{display:block;position:absolute;top:5px;right:0;background:url(/images/default.png) no-repeat -177px -375px;background-size:250px 500px;width:14px;height:26px;}
 
 @media screen and (max-width:1023px) and (min-width:800px){
   .login_box .box_container .login_cont_box{width:790px;}
@@ -186,7 +186,7 @@
 /*static*/
 .login_box .m_cont .login_cont .login_btn input[type="submit"]{transition:all ease-out 0.1s;-webkit-transition:all ease-out 0.1s;-moz-transition:all ease-out 0.1s;-ms-transition:all ease-out 0.1s;}
 .login_box .m_cont .login_cont .login_btn input[type="submit"]:hover{background:#c61065;}
-.login_box .m_cont .login_cont .other_unit li a:after{content:"";display:block;position:absolute;top:5px;right:0;background:url(/i/povis/sprite.another.png) no-repeat 0px -126px;background-size:500px 250px;width:13px;height:26px;opacity:0;visibility:hidden;transition:all ease-out 0.1s;-webkit-transition:all ease-out 0.1s;-moz-transition:all ease-out 0.1s;-ms-transition:all ease-out 0.1s;}
+.login_box .m_cont .login_cont .other_unit li a:after{content:"";display:block;position:absolute;top:5px;right:0;background:url(/images/another.png) no-repeat 0px -126px;background-size:500px 250px;width:13px;height:26px;opacity:0;visibility:hidden;transition:all ease-out 0.1s;-webkit-transition:all ease-out 0.1s;-moz-transition:all ease-out 0.1s;-ms-transition:all ease-out 0.1s;}
 .login_box .m_cont .login_cont .other_unit li .unit_icon2 i{transition:all ease-out 0.1s;-webkit-transition:all ease-out 0.1s;-moz-transition:all ease-out 0.1s;-ms-transition:all ease-out 0.1s;}
 .login_box .m_cont .login_cont .other_unit li:hover .unit_icon2 i{opacity:0;}
 .login_box .m_cont .login_cont .other_unit li:hover a:after{opacity:1;visibility:visible;z-index:1;}
