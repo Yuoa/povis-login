@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko-KR" class="no-js">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>POVIS Login</title>
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="stylesheet" href="/css/default.css" type="text/css" media="all">
+        <meta name='robots' content='noindex,follow' />
+        <link rel='stylesheet' id='twentysixteen-style-css'  href='/css/template.css' type='text/css' media='all' />
+        <script type='text/javascript' src='/js/jquery.js'></script>
+        <script type='text/javascript' src='/js/jquery-migrate.js'></script>
+        <!--[if lt IE 9]>
+            <script type='text/javascript' src='/js/html5.js'></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="login_box pop_up">
+            <div class="box_container">
+                <div class="login_cont_box">
+                    <div class="h_cont">
+                        <h2>
+                            <span class="povis_logo">POVIS</span>
+                            <span class="txt">Log in</span>
+                        </h2>
+                    </div>
+		    <div class="n_cont">
+			<em>Security warning is just a problem of POVIS system, not of our leaky security.</em>
+		    </div>
+                    <div class="m_cont">
+                        <div class="login_cont">
+                            <form method="post" id="login_frm" name="login_frm" action="https://postech.ac.kr/wp-content/themes/postech/povis/login_pro.php">
+                                <div class="input_unit">
+                                    <div class="input_boxfield_contaniner">
+                                        <div class="input_boxfield">
+                                            <label for="ID">ID</label>
+                                            <div class="input_box field1">
+                                                <input type="text" name="ID" id="ID" placeholder="PLEASE ENTER YOUR ID" value="">
+                                            </div>
+                                        </div>
+                                        <div class="input_boxfield">
+                                            <label for="PWD">PASSWORD</label>
+                                            <div class="input_box field2">
+                                                <input type="password" name="PWD" id="PWD" placeholder="ENTER YOUR PASSWORD">
+                                            </div>
+                                        </div>
+                                        <div class="checkbox_area">
+                                            <div class="check_box">
+                                                <input type="checkbox" id="ch1">
+                                                <label for="ch1">Remeber ID</label>
+                                            </div>
+                                        </div>
+                                        <div class="login_btn">
+                                            <input type="submit" value="LOGIN">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="other_unit">
+                                    <ul>
+                                        <li class="unit1">
+                                            <a href="https://povis.postech.ac.kr/irj/servlet/prt/portal/prtroot/kr.ac.postech.idpwadmin.PasswordInitUserInfo" target="_blank">
+                                                <div class="unit_icon1">
+                                                    <i class="icon_item"></i>
+                                                </div>
+                                                <div class="unit_cont">
+                                                    <dl>
+                                                        <dt>Reset Password</dt>
+                                                        <dd>If you forgot your password, you can reset it with your phone number authentication.</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="unit_icon2">
+                                                    <i class="icon_item"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="unit2">
+                                            <a href="https://povis.postech.ac.kr/irj/servlet/prt/portal/prtroot/kr.ac.postech.idpwadmin.PasswordChangeForm" target="_blank">
+                                                <div class="unit_icon1">
+                                                    <i class="icon_item"></i>
+                                                </div>
+                                                <div class="unit_cont">
+                                                    <dl>
+                                                        <dt>Change Password</dt>
+                                                        <dd>Through the above link, you can change the password.</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="unit_icon2">
+                                                    <i class="icon_item"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <label for="focus_t" style="position:absolute; left:-999999%; font-size:0;">focus style</label>
+                                <input type="text" id="focus_t" name="focus_t">
+                            </form>
+                        </div>
+                    </div>
+		    <div class="f_cont">
+			<span>Hosted by <b>Yuoa</b></span>
+		    </div>
+                </div>
+            </div>
+        </div>
+        <script>function getCookie(name){var value=document.cookie.match('(^|;) ?'+name+'=([^;]*)(;|$)');return value?value[2]:null;}function setCookie(name,value,expiredays){var todayDate=new Date();todayDate.setDate(todayDate.getDate()+expiredays);document.cookie=name+"="+escape(value)+";path=/;expires="+todayDate.toGMTString()+";"}jQuery(document).ready(function($){$('#login_frm').submit(function(){var checked=$('#ch1').is(":checked");var id=$('#ID').val();if(checked == true){setCookie('lo_id',id,31);}else{setCookie('lo_id','',0);}});var lo_id=getCookie('lo_id');if(lo_id!=null&&lo_id!=''){$('#ch1').prop('checked',true);$('#ID').val(lo_id);}});</script>
+    </body>
+</html>
+
