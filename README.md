@@ -2,7 +2,7 @@
 Direct POVIS Login Page
 
 ## Site
-[povis.yuoa.pm](https://povis.yuoa.dev)
+[povis.widh.dev](https://povis.widh.dev)
 
 ## Source Information
 - Originally designed by POSTECH Official
