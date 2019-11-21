@@ -1,7 +1,7 @@
 POVIS Login
 ===========
 
-Direct POVIS Login Page. [Go to the site (povis.waai.us)](https://povis.waai.us/)
+Direct POVIS Login Page. [Go to the site (povis.wldh.org)](https://povis.wldh.org/)
 
 Source Information
 ------------------
